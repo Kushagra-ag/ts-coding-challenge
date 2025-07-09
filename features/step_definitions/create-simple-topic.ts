@@ -104,7 +104,7 @@ Then(/^The message "([^"]*)" is received by the topic and can be printed to the 
 });
 
 Given(/^A second account with more than (\d+) hbars$/, async function (expectedBalance: number) {
-  const acc = accounts[4];
+  const acc = accounts[5];
   const account: AccountId = AccountId.fromString(acc.id);
   this.secondAccount = account;
   const privKey: PrivateKey = PrivateKey.fromStringED25519(acc.privateKey);
