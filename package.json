@@ -10,7 +10,7 @@
   "scripts": {
     "test": "cucumber-js -p default --exit",
     "test:dev": "cucumber-js -p default --tags '@dev' --exit",
-    "test:wip": "cucumber-js -p default --tags 'not @wip' --exit"
+    "test:wip": "cucumber-js -p default --tags '@wip' --exit"
   },
   "devDependencies": {
     "@cucumber/cucumber": "11.3.0",
